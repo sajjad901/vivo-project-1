@@ -1,0 +1,478 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+#header{
+    width: 100%;
+    float: left;
+    height: 80px;
+    background-color: black;
+}
+.logo-part{
+    width: 15%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.logo-part a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-family: impact;
+    letter-spacing: 2px;
+}
+
+.manu-part{
+    width: 70%;
+    float: left;
+}
+.manu-part ul{
+    text-align: center;
+}
+.manu-part li{
+    display: inline-block;
+    margin: 30px 30px;
+}
+.manu-part a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: verdana;
+    transition: 0.3s ease-in-out;
+}
+.manu-part a:hover{
+    background-color: yellow;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.search-part{
+    width: 15%;
+    float: left;
+    margin-top: 20px;
+    text-align: end;
+}
+.search-part i{
+    font-size: 20px;
+    color: #fff;
+    
+}
+
+/* Hero part  */
+#hero{
+    width: 100%;
+    float: left;
+    background-color: black;
+}
+.hero-bk{
+    width: 100%;
+    float: left;
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 109vh;
+}
+.hero-bk h1{
+    padding-top: 250px;
+    padding-left: 70px;
+    font-size: 40px;
+    font-family: cambria;
+}
+.hero-bk p{
+    padding-left: 70px;
+    font-size: 20px;
+    font-family: verdana;
+}
+.hero-bk button{
+    margin: 20px 70px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: aqua;
+    color: #000;
+    font-weight: bold;
+    font-family: arial;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+.hero-bk button:hover{
+    background-color: rgb(3, 206, 3);
+    color: #000;
+    font-weight: bold;
+}
+
+/* About part  */
+#about-part{
+    width: 100%;
+    float: left;
+    padding-bottom: 200px;
+    padding-top: 100px;
+    text-align: center;
+    background-image: linear-gradient(to right, red, yellow, aqua);
+}
+.writing-part{
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+.writing-part h2{
+    font-size: 40px;
+
+}
+.writing-part p{
+    width: 60%;
+    margin: auto;
+}
+
+/* image part  */
+.image-part{
+    width: 100%;
+    float: left;
+}
+.image{
+    width: 30%;
+    float: left;
+    margin: 0px 1.5%;
+    background-color: blue;
+    margin-top: 70px;
+    transition:  0.3s ease;
+}
+.image img{
+    width: 100%;
+    height: 450px;
+}
+.image h2{
+    margin-top: 20px;
+    color: #fff;
+}
+.image p{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.image:hover{
+    box-shadow: 5px 5px 3px black, -5px -5px 3px black;
+    background-color: green;
+}
+
+/* pricing part  */
+#pricing-part{
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    background-image: linear-gradient(to right, aqua, green, lightblue);
+}
+.heading{
+    text-align: center;
+    padding: 40px 0px;
+    
+}
+.heading h1{
+    text-transform: uppercase;
+    font-family: verdana;
+    padding-bottom: 10px;
+    color: #fff;
+}
+.heading p{
+    width: 60%;
+    margin: auto;
+    font-family: sans-serif;
+    color: yellow;
+}
+.price{
+    width: 30%;
+    height: 450px;
+    float: left;
+    background-color: rgb(4, 128, 177);
+    margin: 0px 1.5%;
+    padding: 40px 0px;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+}
+.price:hover{
+    background-color: rgb(5, 71, 146);
+    color: #000;
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.5), -5px -5px 3px rgba(0,0,0,0.5);
+}
+
+.price i{
+    font-size: 80px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.price h2{
+    text-transform: uppercase;
+    color: yellow;
+    padding-bottom: 30px;
+}
+.price p{
+    width: 80%;
+    margin: auto;
+    font-family: sans-serif;
+    color: #fff;
+    padding-bottom: 70px;
+}
+.price button{
+    width: 170px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: yellow;
+    transition: 0.5s ease-in-out;
+    
+}
+.price button:hover{
+    background-color: red;
+    color: #fff;
+}
+
+/* Gallary part  */
+#gallary{
+    width: 100%;
+    float: left;
+}
+
+.box-part{
+    width: 100%;
+    float: left;
+    background-image: linear-gradient(red, yellow, green);
+}
+.g-image-part{
+    width: 50%;
+    float: left;
+    height: 600px;
+}
+.g-image-part img{
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+}
+.contant-part{
+    width: 50%;
+    float: left;
+    text-align: center;
+    height: 600px;
+}
+.contant-part h1{
+    padding-top: 220px;
+    text-transform: uppercase;
+    font-family: verdana;
+    padding-bottom: 20px;
+}
+.contant-part p{
+    width: 90%;
+    margin: auto;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+.contant-part button{
+    width: 170px;
+    height: 40px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(226, 14, 120);
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+.contant-part button:hover{
+    background-color: aqua;
+    color: #000;
+}
+
+/* statistics part  */
+
+#static{
+    width: 100%;
+    float: left;
+    background-image: linear-gradient(to right, orange, red, aqua);
+    color: #fff;
+    padding-bottom: 140px;
+    padding-top: 150px;
+}
+.static-part{
+    text-align: center;
+    /* padding-top: 100px; */
+    padding-bottom: 90px;
+}
+.static-part h1{
+    text-transform: uppercase;
+    font-family: verdana;
+    padding-bottom: 10px;
+}
+.static-part p{
+    width: 60%;
+    margin: auto;
+    font-family: serif;
+}
+.number{
+    width: 100%;
+    float: left;
+}
+.number-1{
+    width: 30%;
+    float: left;
+    margin: 0px 1.6%;
+    text-align: center;
+}
+.number-1 h1{
+    font-family: Arial;
+    font-size: 45px;
+}
+.number-1 h3{
+    font-family: courier;
+    font-size: 25px;
+}
+
+/* sammary part  */
+
+#summary{
+    width: 100%;
+    float: left;
+    padding-top: 250px;
+    padding-bottom: 200px;
+    background-image: url(../img/down.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.down-part{
+    text-align: center;
+    
+}
+.down-part p{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 20px;
+    font-family: segoe UI;
+    color: black;
+    font-weight: bold;
+}
+.down-part h2{
+    text-transform: uppercase;
+    font-family: tahoma;
+    font-size: 40px;
+}
+
+/* subscribe part  */
+#subscribe-part{
+    width: 100%;
+    float: left;
+    padding: 150px 0px;
+    background-image: linear-gradient(to right, yellow,aqua,yellow);
+}
+.subscribe{
+    text-align: center;
+}
+.subscribe h1{
+    text-transform: uppercase;
+    font-family: impact;
+    font-size: 50px;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+    text-shadow: 5px 5px 3px red;
+}
+.subscribe p{
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.subscribe input{
+    width: 250px;
+    height: 35px;
+    background-color: #fff;
+    color: #000;
+    font-family: verdana;
+    border-right: none;
+}
+.subscribe button{
+    width: 110px;
+    height: 35px;
+    font-size: 15px;
+    font-family: tahoma;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: blue;
+    color: #fff;
+}
+.subscribe button:active{
+    background-color: yellow;
+    color: #000;
+}
+#footer{
+    width: 100%;
+    float: left;
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.footer-part-1{
+    width: 40%;
+    float: left;
+    color: #fff;
+    text-align: center;
+}
+.footer-part-1 h1{
+    font-family: verdana;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.footer-part-1 p{
+    width: 70%;
+    margin: auto;
+}
+.footer-part{
+    width: 20%;
+    float: left;
+    text-align: left;
+    color: #fff;
+}
+.footer-part h1{
+    font-family: verdana;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+
+.footer-part ul{
+    
+}
+.footer-part li{
+    display: flow-root;
+    padding: 5px 0px;
+}
+.footer-part a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.icon{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.icon i{
+    font-size: 40px;
+    color: #fff;
+    padding-top: 50px;
+    margin: 0px 25px;
+}
+
